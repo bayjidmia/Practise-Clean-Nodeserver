@@ -1,4 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "http";
+import { productHandller } from "../Controller/Controller.ts";
 
 export const routeHandler = (req: IncomingMessage, res: ServerResponse) => {
   if (req.url === "/" && req.method === "GET") {
@@ -7,7 +8,6 @@ export const routeHandler = (req: IncomingMessage, res: ServerResponse) => {
     });
     res.end(JSON.stringify({ message: "this is the root" }));
   } else if (req.url?.startsWith("/products")) {
-    res.writeHead(404, { "content-type": "text/plain" });
-    res.end("this is product root");
+    productHandller(req, res);
   }
 };
