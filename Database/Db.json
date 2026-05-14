@@ -1,7 +1,11 @@
 [
-  {
-    "id": 1,
-    "product": "products-1",
-    "price": 100
-  }
+  { "id": 1, "product": "products-1", "price": 100 },
+  { "id": 2, "product": "products-2", "price": 250 },
+  { "id": 3, "product": "products-3", "price": 500 },
+  { "id": 4, "product": "products-4", "price": 750 },
+  { "id": 5, "product": "products-5", "price": 1200 },
+  { "id": 6, "product": "products-6", "price": 300 },
+  { "id": 7, "product": "products-7", "price": 950 },
+  { "id": 8, "product": "products-8", "price": 1500 },
+  { "id": 1778766581653, "name": "bayjid", "price": 5600 }
 ]
